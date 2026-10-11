@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UloGold Kitchen | Nigerian &amp; Eastern Home Cooking</title>
+<meta name="description" content="Freshly cooked Nigerian and Eastern dishes, ordered straight on WhatsApp. Jollof, egusi, ofe onugbu, nkwobi and more. Catering for your celebrations.">
+<meta name="theme-color" content="#0b1c13">
+<link rel="canonical" href="https://ulogoldkitchen.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="UloGold Kitchen | Nigerian &amp; Eastern Home Cooking">
+<meta property="og:description" content="Fine home cooking, from our kitchen to your table. Choose your dishes and send your order on WhatsApp.">
+<meta property="og:url" content="https://ulogoldkitchen.com/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%230b1c13'/%3E%3Cpath d='M26 48H74C74 66 64 76 50 76C36 76 26 66 26 48Z' fill='%23e8b83a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"UloGold Kitchen","url":"https://ulogoldkitchen.com/","telephone":"+2348038654179","servesCuisine":["Nigerian","Eastern Nigerian"],"description":"Nigerian and Eastern home cooking, cooked to order, with delivery and catering."}
+</script>
+<style>
+:root{
+ --ink:#0b1c13;--deep:#102a1c;--leaf:#1d5a39;
+ --gold:#e8b83a;--gold-l:#f6d77a;--gold-d:#8a6208;
+ --paper:#f6f7f1;--line:#dfe5da;--mute:#506359;
+ --gold-grad:linear-gradient(135deg,#f6d77a 0%,#e8b83a 45%,#b98710 100%)
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:"DM Sans",system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.serif{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.06;letter-spacing:-.01em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:var(--ink);padding:10px 16px;border-radius:8px;z-index:100;font-weight:700}
+.skip:focus{left:8px}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:30;background:#0b1c13e6;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid #e8b83a33}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:14px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff}
+.brand svg{width:42px;height:42px}
+.wm{font-family:"Cormorant Garamond",Georgia,serif;font-size:1.65rem;font-weight:700;line-height:1}
+.wm b{background:var(--gold-grad);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:700}
+.wm small{display:block;font:500 .6rem "DM Sans",sans-serif;letter-spacing:.42em;color:#b9ccbf;margin-top:3px}
+.links{display:flex;gap:26px;align-items:center}
+.links a{color:#dbe8df;text-decoration:none;font-size:.95rem}
+.links a:hover{color:var(--gold)}
+.btn{display:inline-block;font:700 .98rem "DM Sans",sans-serif;padding:13px 28px;border:0;border-radius:999px;cursor:pointer;text-decoration:none;transition:transform .2s,box-shadow .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.gold{background:var(--gold-grad);color:var(--ink);box-shadow:0 8px 24px #e8b83a40}
+.btn.gold:hover{box-shadow:0 14px 32px #e8b83a66}
+.btn.ghost{background:transparent;color:#fff;border:1px solid #ffffff55}
+.btn.ghost:hover{border-color:var(--gold);color:var(--gold)}
+
+/* hero */
+.hero{position:relative;background:radial-gradient(900px 500px at 78% 40%,#1d5a3955,transparent 70%),var(--ink);color:#fff;padding:84px 0 96px;overflow:hidden;isolation:isolate}
+.hero:before{content:"";position:absolute;inset:0;z-index:-1;opacity:.07;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72' fill='none' stroke='%23e8b83a' stroke-width='1.2'%3E%3Cpath d='M36 6L66 36L36 66L6 36Z'/%3E%3Cpath d='M36 20L52 36L36 52L20 36Z'/%3E%3Ccircle cx='36' cy='36' r='3'/%3E%3C/svg%3E")}
+.hero:after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
+.hero h1{font-size:clamp(2.9rem,7vw,5.2rem);animation:rise 1s cubic-bezier(.2,.7,.2,1) both}
+.hero p{margin:20px 0 32px;max-width:42ch;color:#c4d6ca;font-size:1.12rem;animation:rise 1s .18s cubic-bezier(.2,.7,.2,1) both}
+.hero .btns{display:flex;gap:12px;flex-wrap:wrap;animation:rise 1s .34s cubic-bezier(.2,.7,.2,1) both}
+.hero .facts{display:flex;gap:26px;flex-wrap:wrap;margin-top:36px;color:#b9ccbf;font-size:.93rem;animation:rise 1s .5s cubic-bezier(.2,.7,.2,1) both}
+.hero .facts span{display:flex;align-items:center;gap:8px}
+.hero .facts i{width:7px;height:7px;border-radius:50%;background:var(--gold);display:block}
+.emb{justify-self:center;width:min(100%,380px);filter:drop-shadow(0 24px 50px #000a);animation:rise 1.2s .2s cubic-bezier(.2,.7,.2,1) both}
+.ring{transform-origin:50px 50px;animation:spin 60s linear infinite}
+.steam path{stroke-dasharray:60;animation:steam 3.2s ease-in-out infinite;opacity:0}
+.steam path:nth-child(2){animation-delay:.9s}.steam path:nth-child(3){animation-delay:1.8s}
+@keyframes steam{0%{stroke-dashoffset:60;opacity:0;transform:translateY(6px)}30%{opacity:1}100%{stroke-dashoffset:0;opacity:0;transform:translateY(-8px)}}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* strip */
+.strip{background:var(--deep);border-bottom:1px solid #e8b83a33;overflow:hidden;white-space:nowrap;padding:14px 0}
+.strip div{display:inline-block;animation:slide 48s linear infinite;font:italic 600 1.25rem "Cormorant Garamond",serif;color:var(--gold-l)}
+.strip span{margin:0 22px}
+.strip i{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--gold);margin:0 10px 3px}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* sections */
+section{padding:72px 0}
+h2{font-size:clamp(2.1rem,5vw,3.1rem);margin-bottom:10px}
+.sub{color:var(--mute);margin-bottom:34px;max-width:54ch}
+.dark{background:var(--ink);color:#fff}
+.dark .sub{color:#b9ccbf}
+
+/* menu */
+.tabs{position:sticky;top:68px;z-index:15;display:flex;gap:10px;overflow-x:auto;padding:12px 0;margin-bottom:26px;background:linear-gradient(var(--paper) 80%,#f6f7f100);scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs a{flex:none;text-decoration:none;font-weight:500;font-size:.93rem;padding:9px 18px;border:1px solid #c5d1c4;border-radius:999px;background:#fff;transition:background .2s,color .2s,border-color .2s}
+.tabs a:hover{background:var(--ink);color:var(--gold-l);border-color:var(--ink)}
+.cat{margin-bottom:46px;scroll-margin-top:136px}
+.cat h3{font-size:2.1rem;color:var(--leaf);margin-bottom:6px}
+.cat .cn{color:var(--mute);font-size:.95rem;margin-bottom:12px}
+.list{display:grid;grid-template-columns:1fr 1fr;column-gap:46px}
+.dish{display:grid;grid-template-columns:1fr auto;gap:2px 16px;padding:18px 0;border-bottom:1px solid var(--line);align-items:center}
+.dish .top{display:flex;align-items:baseline;gap:10px;grid-column:1/-1}
+.dish b{font-weight:700;font-size:1.04rem}
+.lead{flex:1;border-bottom:2px dotted #c3cfc2;transform:translateY(-4px);min-width:16px}
+.price{font:700 1.5rem "Cormorant Garamond",serif;color:var(--gold-d);white-space:nowrap}
+.fav{font:600 .72rem "DM Sans",sans-serif;color:var(--ink);background:var(--gold-grad);padding:2px 9px;border-radius:999px;white-space:nowrap}
+.dish small{color:var(--mute);font-size:.93rem;max-width:34ch}
+.dish.out{opacity:.55}
+.add{font:700 .9rem "DM Sans",sans-serif;background:var(--ink);color:#fff;border:0;border-radius:999px;padding:9px 24px;cursor:pointer;transition:background .2s,transform .15s}
+.add:hover{background:var(--leaf)}.add:active{transform:scale(.94)}
+.qty{display:flex;align-items:center;gap:12px}
+.qty button{width:34px;height:34px;border-radius:50%;border:1px solid #aebdb1;background:#fff;font-size:1.15rem;cursor:pointer;transition:transform .15s,border-color .2s}
+.qty button:hover{border-color:var(--gold)}
+.qty button:active{transform:scale(.88)}
+.sold{font-size:.85rem;font-weight:700;color:#8a3a2a}
+
+/* services */
+.svc{display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
+.svc div{border-top:2px solid var(--gold);padding-top:18px}
+.svc h3{font-size:1.65rem;margin-bottom:6px;color:#fff}
+.svc p{color:#b9ccbf;font-size:.97rem}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:30px;list-style:none;padding:0;counter-reset:s}
+.steps li{counter-increment:s;border-top:1px solid #e8b83a55;padding-top:18px}
+.steps li:before{content:counter(s);font:600 2.6rem "Cormorant Garamond",serif;background:var(--gold-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.steps h3{font-size:1.55rem;margin:2px 0 4px}
+.steps p{color:#b9ccbf}
+
+/* story */
+.story .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:54px;align-items:start}
+.story .quote{font:italic 600 clamp(1.9rem,4vw,2.7rem)/1.18 "Cormorant Garamond",serif;color:var(--leaf);border-left:3px solid var(--gold);padding-left:24px}
+.story p{max-width:58ch;margin-bottom:14px}
+.story a{color:var(--gold-d);font-weight:700}
+
+/* faq */
+details{border-bottom:1px solid var(--line);padding:18px 0}
+summary{cursor:pointer;font-weight:500;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;gap:14px}
+summary:after{content:"+";color:var(--gold);font-size:1.4rem;line-height:1;transition:transform .25s}
+details[open] summary:after{transform:rotate(45deg)}
+summary::-webkit-details-marker{display:none}
+details p{margin-top:8px;color:var(--mute);max-width:62ch}
+
+/* order */
+.order{display:grid;grid-template-columns:1fr 1fr;gap:38px}
+.f{display:grid;gap:14px}
+label{font-weight:500;font-size:.92rem;display:block;margin-bottom:4px}
+input,select,textarea{width:100%;font:inherit;padding:12px 14px;border:1px solid #b2c1b5;border-radius:12px;background:#fff}
+input:focus,select:focus,textarea:focus{border-color:var(--gold);outline:2px solid #e8b83a55}
+.sum{background:#fff;border:1px solid var(--gold);border-radius:20px;padding:26px;align-self:start;box-shadow:0 18px 44px #0b1c1318}
+.sum h3{font-size:1.8rem;margin-bottom:8px}
+.sum .l{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:.97rem}
+.sum .l .m{display:flex;align-items:center;gap:8px}
+.sum .l button{width:26px;height:26px;border-radius:50%;border:1px solid #aebdb1;background:#fff;cursor:pointer;line-height:1}
+.sum .t{display:flex;justify-content:space-between;font-weight:700;font-size:1.2rem;margin-top:16px}
+.note{font-size:.88rem;color:var(--mute);margin-top:8px}
+.err{color:#9b2c1d;font-size:.92rem;min-height:1.3em;margin:8px 0}
+
+/* footer */
+footer{background:var(--ink);color:#b9ccbf;padding:44px 0;font-size:.95rem;border-top:1px solid #e8b83a44}
+footer a{color:var(--gold)}
+footer .fb{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+footer .fb svg{width:46px;height:46px}
+
+/* floating */
+.wa{position:fixed;right:20px;bottom:20px;z-index:40;width:62px;height:62px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 12px 28px #0007;transition:transform .2s}
+.wa:hover{transform:scale(1.08)}
+.wa svg{width:33px;height:33px;fill:#fff}
+.wa:before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #25d366;animation:ping 2.4s ease-out infinite}
+@keyframes ping{from{transform:scale(1);opacity:.8}to{transform:scale(1.7);opacity:0}}
+.pill{position:fixed;left:50%;bottom:24px;z-index:40;transform:translate(-50%,160%);background:var(--gold-grad);color:var(--ink);font-weight:700;padding:15px 28px;border-radius:999px;text-decoration:none;box-shadow:0 16px 38px #0009;transition:transform .45s cubic-bezier(.2,.9,.3,1.2);white-space:nowrap}
+.pill.show{transform:translate(-50%,0)}
+.pill.bump{animation:bump .35s}
+@keyframes bump{50%{transform:translate(-50%,0) scale(1.07)}}
+.top{position:fixed;right:30px;bottom:96px;z-index:40;width:44px;height:44px;border-radius:50%;background:var(--ink);color:var(--gold);border:1px solid var(--gold);display:grid;place-items:center;text-decoration:none;opacity:0;pointer-events:none;transition:opacity .25s}
+.top.show{opacity:1;pointer-events:auto}
+
+@media(max-width:820px){
+ .hero .wrap,.order,.story .wrap{grid-template-columns:1fr}
+ .list{grid-template-columns:1fr}
+ .svc{grid-template-columns:1fr 1fr}
+ .emb{width:210px;order:-1}
+ .links a.t{display:none}
+ .hero{padding:48px 0 64px}
+ section{padding:56px 0}
+ .story .wrap{gap:28px}
+ .pill{left:16px;right:96px;bottom:24px;transform:translateY(200%);text-align:center;padding:15px 18px;white-space:normal}
+ .pill.show{transform:none}
+ .pill.bump{animation:bump2 .35s}
+ @keyframes bump2{50%{transform:scale(1.05)}}
+ .top{right:auto;left:16px;bottom:24px}
+}
+@media(max-width:480px){.svc{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}.steam path{opacity:1;stroke-dashoffset:0}}
+</style>
+</head>
+<body>
+<a class="skip" href="#menu">Skip to the menu</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6d77a"/><stop offset=".5" stop-color="#e8b83a"/><stop offset="1" stop-color="#b98710"/></linearGradient></defs><symbol id="mark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" fill="#0b1c13" stroke="url(#gg)" stroke-width="2.5"/><g fill="none" stroke="url(#gg)" stroke-width="3.2" stroke-linecap="round"><path d="M38 44C33 37 43 33 38 25"/><path d="M50 44C45 36 55 32 50 22"/><path d="M62 44C57 37 67 33 62 25"/><path d="M26 52H74C74 68 64 77 50 77C36 77 26 68 26 52Z" fill="url(#gg)" stroke="none"/><path d="M38 83H62"/></g></symbol></svg>
+
+<nav class="nav" aria-label="Main"><div class="wrap">
+ <a class="brand" href="#top" aria-label="UloGold Kitchen home"><svg><use href="#mark"/></svg><span class="wm">Ulo<b>Gold</b><small>KITCHEN</small></span></a>
+ <div class="links"><a class="t" href="#menu">Menu</a><a class="t" href="#services">Services</a><a class="t" href="#story">Our story</a><a class="t" href="#faq">FAQs</a><a class="btn gold" href="#order">Order now</a></div>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+ <div>
+  <h1>Fine home cooking, from our kitchen to your table.</h1>
+  <p>Nigerian and Eastern dishes, cooked fresh to order and delivered to your door. Choose your food and send your order on WhatsApp.</p>
+  <div class="btns"><a class="btn gold" href="#menu">See the menu</a><a class="btn ghost" id="heroWa" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a></div>
+  <div class="facts"><span><i></i>Cooked fresh to order</span><span><i></i>Delivery available</span><span><i></i>Catering for events</span></div>
+ </div>
+ <svg class="emb" viewBox="0 0 100 100" role="img" aria-label="UloGold Kitchen emblem">
+  <circle cx="50" cy="50" r="48" fill="#102a1c" stroke="url(#gg)" stroke-width="1.6"/>
+  <g class="ring"><circle cx="50" cy="50" r="43" fill="none" stroke="#e8b83a" stroke-width=".6" stroke-dasharray="1.5 2.5"/></g>
+  <circle cx="50" cy="50" r="38" fill="none" stroke="#e8b83a" stroke-width=".3" opacity=".5"/>
+  <g class="steam" fill="none" stroke="#f6d77a" stroke-width="2.6" stroke-linecap="round"><path d="M38 44C33 37 43 33 38 25"/><path d="M50 44C45 36 55 32 50 22"/><path d="M62 44C57 37 67 33 62 25"/></g>
+  <path d="M26 52H74C74 68 64 77 50 77C36 77 26 68 26 52Z" fill="url(#gg)"/>
+  <path d="M38 83H62" stroke="url(#gg)" stroke-width="3.2" stroke-linecap="round"/>
+ </svg>
+</div></header>
+
+<div class="strip" aria-hidden="true"><div id="marq"></div></div>
+
+<main>
+<section id="menu"><div class="wrap">
+ <h2>Our menu</h2>
+ <p class="sub">Tap Add on the dishes you want. Prices are in naira.</p>
+ <nav class="tabs" id="tabs" aria-label="Menu categories"></nav>
+ <div id="menuBox"></div>
+</div></section>
+
+<section class="dark" id="services"><div class="wrap">
+ <h2>What we cook for you</h2>
+ <p class="sub">From a single plate to a full celebration.</p>
+ <div class="svc">
+  <div><h3>Everyday meals</h3><p>Rice, soups and swallow, cooked fresh when you order.</p></div>
+  <div><h3>Eastern specials</h3><p>Ofe onugbu, oha, nkwobi, isi ewu and other dishes from home.</p></div>
+  <div><h3>Catering</h3><p>Birthdays, weddings and office lunches, with a quote on request.</p></div>
+  <div><h3>Delivery</h3><p>Your food at your door. We confirm the fee on WhatsApp first.</p></div>
+ </div>
+</div></section>
+
+<section id="how"><div class="wrap">
+ <h2>Ordering is simple</h2>
+ <p class="sub">No account and no app.</p>
+ <ol class="steps" style="--l:#dfe5da">
+  <li><h3>Choose your food</h3><p style="color:var(--mute)">Add dishes from the menu.</p></li>
+  <li><h3>Send on WhatsApp</h3><p style="color:var(--mute)">Enter your details and your order opens in WhatsApp, ready to send.</p></li>
+  <li><h3>Confirm and enjoy</h3><p style="color:var(--mute)">We confirm the delivery fee, payment and time. Your food arrives hot.</p></li>
+ </ol>
+</div></section>
+
+<section class="story dark" id="story"><div class="wrap">
+ <div>
+  <h2 style="color:#fff">Our story</h2>
+  <p class="quote" style="color:var(--gold-l)">Cooking is more than what we do. It is how we serve.</p>
+ </div>
+ <div>
+  <p>UloGold Kitchen began in a family kitchen. As the last of six children, the woman behind our kitchen discovered early that she could prepare many different dishes with confidence, and never tired of doing so. Cooking quickly became her greatest joy.</p>
+  <p>Her reputation grew through the people she fed. Friends at school praised her cooking, and at her own children's birthday celebrations, guests asked to take food home. Her dishes became known for their natural, honest taste, and for plates that came back clean.</p>
+  <p>Today, that passion is a kitchen built on one idea: serving people well. From everyday meals to catering for your celebrations, every dish is cooked fresh and with care, so every plate leaves you satisfied.</p>
+  <p>Planning an event? <a id="cateringWa" href="#" target="_blank" rel="noopener" style="color:var(--gold)">Request a catering quote on WhatsApp</a>.</p>
+ </div>
+</div></section>
+
+<section id="faq"><div class="wrap" style="max-width:820px">
+ <h2>Good questions</h2>
+ <details><summary>How do I order?</summary><p>Add dishes to your order, fill in your details, and tap Send order on WhatsApp. We reply to confirm everything.</p></details>
+ <details><summary>How do I pay?</summary><p>We send our payment details on WhatsApp when we confirm your order. Pay by bank transfer, or ask about pay on delivery.</p></details>
+ <details><summary>Do you deliver?</summary><p>Yes. The delivery fee depends on your address, so we confirm it with you on WhatsApp before you pay.</p></details>
+ <details><summary>Can I choose my spice level?</summary><p>Yes. Add it in the notes box when you order.</p></details>
+ <details><summary>Do you cater for events?</summary><p>Yes, for parties, weddings and office lunches. Message us with the date and number of guests for a quote.</p></details>
+</div></section>
+
+<section id="order" style="background:#eef1ea"><div class="wrap">
+ <h2>Place your order</h2>
+ <p class="sub">Your order opens in WhatsApp, ready to send. Nothing is charged on this site.</p>
+ <div class="order">
+  <div class="f">
+   <div><label for="name">Your name</label><input id="name" autocomplete="name"></div>
+   <div><label for="phone">Your phone number</label><input id="phone" type="tel" autocomplete="tel"></div>
+   <div><label for="mode">Delivery or pickup</label><select id="mode"><option>Delivery</option><option>Pickup</option></select></div>
+   <div id="addrBox"><label for="addr">Delivery address</label><textarea id="addr" rows="2" autocomplete="street-address"></textarea></div>
+   <div><label for="when">Date and time wanted</label><input id="when" placeholder="e.g. Saturday, 1pm"></div>
+   <div><label for="notes">Notes (spice level, allergies)</label><textarea id="notes" rows="2"></textarea></div>
+  </div>
+  <div class="sum">
+   <h3>Your order</h3>
+   <div id="lines"></div>
+   <div class="t"><span>Food total</span><span id="total">&#8358;0</span></div>
+   <p class="note">Delivery fee is confirmed on WhatsApp.</p>
+   <p class="err" id="err" role="alert"></p>
+   <button class="btn gold" id="send" style="width:100%">Send order on WhatsApp</button>
+  </div>
+ </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <div class="fb"><svg><use href="#mark"/></svg><b class="serif" style="font-size:1.6rem;color:#fff">UloGold Kitchen</b></div>
+ Fine home cooking, Nigerian and Eastern.<br>
+ Orders and enquiries: <a id="footWa" href="#" target="_blank" rel="noopener">WhatsApp +234 803 865 4179</a><br>
+ &copy; <span id="yr"></span> UloGold Kitchen. All rights reserved.
+</div></footer>
+
+<a class="top" id="top2" href="#top" aria-label="Back to top">&uarr;</a>
+<a class="pill" id="pill" href="#order"></a>
+<a class="wa" id="fabWa" href="#" aria-label="Chat on WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 32 32"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.8 1.9 6.8L3 29l6.6-1.8a13 13 0 0 0 6.4 1.7c7.2 0 13-5.700 13-12.800S23.200 3 16 3Zm0 23.500c-2 0-3.900-.6-5.500-1.600l-.4-.2-3.900 1 1-3.800-.3-.4A10.500 10.500 0 0 1 5.500 15.800C5.500 10.100 10.200 5.500 16 5.500s10.500 4.600 10.500 10.300S21.800 26.500 16 26.500Zm5.800-7.800c-.3-.2-1.900-.9-2.200-1s-.5-.2-.7.200-.8 1-1 1.200-.4.200-.7.100a8.600 8.600 0 0 1-4.300-3.700c-.3-.6.300-.5.900-1.700.1-.2 0-.4 0-.5l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400s-1.200 1.200-1.200 2.800 1.200 3.300 1.400 3.500 2.400 3.700 5.800 5.100c2.100.9 2.900.9 3.900.8.600-.1 1.900-.8 2.200-1.500s.3-1.400.2-1.500-.3-.2-.6-.3Z"/></svg></a>
+
+<script>
+/* ===== EDIT HERE =====
+   WhatsApp number: country code + number, no plus sign or spaces.
+   To mark a dish sold out, add soldOut:true to its line.
+   To show a "House favourite" tag, add fav:true to its line.
+   Prices are placeholders: change the p: number (naira). */
+var WA = "2348038654179";
+var NOTES = {
+ "Rice and Mains":"Our rice dishes, made the party way.",
+ "Soups and Swallow":"Rich soups, served with your choice of swallow.",
+ "Eastern Specials":"Dishes from the East, cooked the way home cooks them.",
+ "Small Chops and Sides":"For sharing, snacking and topping up your order."
+};
+var MENU = [
+ {c:"Rice and Mains",n:"Party Jollof Rice and Chicken",d:"Smoky party-style jollof with grilled chicken.",p:4500,fav:true},
+ {c:"Rice and Mains",n:"Fried Rice and Turkey",d:"Veg-packed fried rice with seasoned turkey.",p:5000},
+ {c:"Rice and Mains",n:"Ofada Rice and Ayamase",d:"Local ofada rice with spicy green pepper stew.",p:4500},
+ {c:"Rice and Mains",n:"Coconut Rice and Fish",d:"Creamy coconut rice with fried fish.",p:4800},
+ {c:"Soups and Swallow",n:"Egusi and Pounded Yam",d:"Rich melon-seed soup with assorted meat.",p:5500,fav:true},
+ {c:"Soups and Swallow",n:"Efo Riro and Semo",d:"Spinach stew with locust beans and meat.",p:5000},
+ {c:"Soups and Swallow",n:"Okra Soup and Eba",d:"Fresh okra soup with fish and meat.",p:4500},
+ {c:"Soups and Swallow",n:"Goat Meat Pepper Soup",d:"Hot, peppery broth with tender goat meat.",p:4000},
+ {c:"Eastern Specials",n:"Ofe Onugbu and Fufu",d:"Bitterleaf soup with stockfish and meat.",p:5500,fav:true},
+ {c:"Eastern Specials",n:"Oha Soup and Fufu",d:"Oha leaf soup, thickened with cocoyam.",p:5500},
+ {c:"Eastern Specials",n:"Abacha (African Salad)",d:"Shredded cassava with ugba, garden egg and fish.",p:3500},
+ {c:"Eastern Specials",n:"Ukwa (Breadfruit)",d:"Soft breadfruit seeds cooked with palm oil.",p:3500},
+ {c:"Eastern Specials",n:"Nkwobi",d:"Spiced cow foot in thick palm-oil sauce.",p:5000},
+ {c:"Eastern Specials",n:"Isi Ewu",d:"Peppery goat head, a classic Eastern delicacy.",p:6500},
+ {c:"Eastern Specials",n:"Okpa",d:"Steamed Bambara-nut pudding, served warm.",p:1500},
+ {c:"Small Chops and Sides",n:"Small Chops Platter",d:"Puff-puff, samosa, spring rolls and chicken wings.",p:6000},
+ {c:"Small Chops and Sides",n:"Beef Suya",d:"Grilled spiced beef with onions and yaji.",p:3000},
+ {c:"Small Chops and Sides",n:"Moin Moin",d:"Steamed bean pudding with egg and fish.",p:1000},
+ {c:"Small Chops and Sides",n:"Fried Plantain (Dodo)",d:"Sweet ripe plantain, fried golden.",p:1000}
+];
+/* ===== END EDIT ===== */
+
+var cart = {};
+var $ = function(i){return document.getElementById(i)};
+var naira = function(n){return "\u20A6" + n.toLocaleString("en-NG")};
+var link = function(t){return "https://wa.me/" + WA + "?text=" + encodeURIComponent(t)};
+var slug = function(s){return s.toLowerCase().replace(/[^a-z0-9]+/g,"-")};
+$("heroWa").href = $("fabWa").href = link("Hello UloGold Kitchen, I'd like to place an order.");
+$("footWa").href = link("Hello UloGold Kitchen!");
+$("cateringWa").href = link("Hello UloGold Kitchen, I'd like a catering quote.\nEvent date:\nNumber of guests:\nVenue:\nDishes wanted:");
+$("yr").textContent = new Date().getFullYear();
+
+/* tabs and marquee */
+(function(){
+ var cats = [], t = "", m = "";
+ MENU.forEach(function(x){ if(cats.indexOf(x.c)<0) cats.push(x.c); });
+ cats.forEach(function(c){ t += '<a href="#cat-'+slug(c)+'">'+c+'</a>'; });
+ $("tabs").innerHTML = t;
+ MENU.forEach(function(x){ m += '<span>'+x.n.replace(/ and .*/,"")+'</span><i></i>'; });
+ $("marq").innerHTML = m + m;
+})();
+
+function ctl(i){
+ var m = MENU[i], q = cart[i]||0;
+ if(m.soldOut) return '<span class="sold">Sold out</span>';
+ if(q) return '<div class="qty"><button aria-label="Remove one '+m.n+'" data-i="'+i+'" data-d="-1">&minus;</button><b>'+q+'</b><button aria-label="Add one '+m.n+'" data-i="'+i+'" data-d="1">+</button></div>';
+ return '<button class="add" aria-label="Add '+m.n+' to order" data-i="'+i+'" data-d="1">Add</button>';
+}
+function menu(){
+ var h = "", last = "";
+ MENU.forEach(function(m,i){
+  if(m.c!==last){
+   if(last) h += "</div></div>";
+   h += '<div class="cat" id="cat-'+slug(m.c)+'"><h3>'+m.c+'</h3><p class="cn">'+(NOTES[m.c]||"")+'</p><div class="list">';
+   last = m.c;
+  }
+  h += '<div class="dish'+(m.soldOut?" out":"")+'"><div class="top"><b>'+m.n+'</b>'+(m.fav?'<span class="fav">House favourite</span>':'')+'<i class="lead"></i><span class="price">'+naira(m.p)+'</span></div><small>'+m.d+'</small>'+ctl(i)+'</div>';
+ });
+ $("menuBox").innerHTML = h + "</div></div>";
+}
+function total(){var t=0,c=0;for(var i in cart){t+=MENU[i].p*cart[i];c+=cart[i]}return{t:t,c:c}}
+function refresh(bump){
+ var a = document.activeElement, key = null;
+ if(a && a.dataset && a.dataset.i!==undefined) key = a.dataset.i + "|" + a.dataset.d + "|" + (a.closest("#menuBox")?"#menuBox":"#lines");
+ var s = total(), h = "";
+ for(var i in cart) h += '<div class="l"><span>'+cart[i]+' x '+MENU[i].n+'</span><span class="m"><button aria-label="Remove one '+MENU[i].n+'" data-i="'+i+'" data-d="-1">&minus;</button><span>'+naira(MENU[i].p*cart[i])+'</span></span></div>';
+ $("lines").innerHTML = h || '<p class="note">Nothing yet. Add dishes from the menu.</p>';
+ $("total").textContent = naira(s.t);
+ $("pill").classList.toggle("show", s.c>0);
+ $("pill").textContent = "View your order: " + s.c + (s.c===1?" item":" items") + ", " + naira(s.t);
+ if(bump){ $("pill").classList.remove("bump"); void $("pill").offsetWidth; $("pill").classList.add("bump"); }
+ menu();
+ if(key){
+  var p = key.split("|"), el = document.querySelector(p[2]+' button[data-i="'+p[0]+'"][data-d="'+p[1]+'"]') || document.querySelector(p[2]+' button[data-i="'+p[0]+'"]');
+  if(el) el.focus({preventScroll:true});
+ }
+}
+document.addEventListener("click", function(e){
+ var b = e.target.closest("button[data-i]");
+ if(!b) return;
+ var i = +b.dataset.i, d = +b.dataset.d; cart[i] = (cart[i]||0) + d;
+ if(cart[i]<=0) delete cart[i];
+ refresh(d>0);
+});
+window.addEventListener("scroll", function(){$("top2").classList.toggle("show", window.scrollY>700)}, {passive:true});
+$("mode").onchange = function(){$("addrBox").style.display = this.value==="Delivery"?"block":"none"};
+$("send").onclick = function(){
+ var s = total(), name = $("name").value.trim(), phone = $("phone").value.trim(),
+     mode = $("mode").value, addr = $("addr").value.trim();
+ if(!s.c){$("err").textContent="Add at least one dish to your order.";return}
+ if(!name||!phone){$("err").textContent="Enter your name and phone number.";return}
+ if(mode==="Delivery"&&!addr){$("err").textContent="Enter your delivery address.";return}
+ $("err").textContent = "";
+ var t = "Hello UloGold Kitchen, I'd like to order:\n\n";
+ for(var i in cart) t += cart[i] + " x " + MENU[i].n + " (" + naira(MENU[i].p*cart[i]) + ")\n";
+ t += "\nFood total: " + naira(s.t) + "\n\nName: " + name + "\nPhone: " + phone + "\n" + mode + (mode==="Delivery"?" address: "+addr:"") + "\nWanted: " + ($("when").value.trim()||"As soon as possible");
+ if($("notes").value.trim()) t += "\nNotes: " + $("notes").value.trim();
+ window.open(link(t), "_blank");
+};
+refresh();
+</script>
+</body>
+</html>
